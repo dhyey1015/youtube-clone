@@ -1,33 +1,17 @@
+import { SideBarTitle } from "./SideBarTitle"
+
 export function SideBar(){
     
     return(
-        <div className="flex flex-col border border-black w-72">
-            <div className="">
-                <button className="flex justify-center bg-red-500 px-24 py-2">
-                    <div >
-                        home
-                    </div>
-                </button>
+        <div className="flex flex-col border border-black max-w-60 p-3">
+            <div>
+                <SideBarTitle label={"Home"}/>
             </div>
             <div>
-                <button>
-                    home
-                </button>
+                <SideBarTitle label={"Home"}/>
             </div>
             <div>
-                <button>
-                    home
-                </button>
-            </div>
-            <div>
-                <button>
-                    home
-                </button>
-            </div>
-            <div>
-                <button>
-                    home
-                </button>
+                <SideBarTitle label={"Home"}/>
             </div>
         </div>
     )
